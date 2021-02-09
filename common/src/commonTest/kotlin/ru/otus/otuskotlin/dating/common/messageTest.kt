@@ -6,11 +6,11 @@ import kotlin.test.assertEquals
 class MessageTest {
     @Test
     fun itCreatesMessage() {
-        val id = "one-id"
+        val id = 1
         val content = "message to you"
-        val message = Message(id = id, message = content)
+        val message = Message(id = id, content = content)
 
         assertEquals(message.id, id)
-        assertEquals(message.message, content)
+        assertEquals(message.content, content)
     }
 }

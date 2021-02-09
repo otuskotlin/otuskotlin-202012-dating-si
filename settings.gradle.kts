@@ -5,7 +5,9 @@ pluginManagement {
 
     plugins {
         kotlin("multiplatform") version kotlinVersion
+        kotlin("jvm") version kotlinVersion
+        kotlin("js") version kotlinVersion
     }
 }
 
-include("common")
+include("common", "common-be")
