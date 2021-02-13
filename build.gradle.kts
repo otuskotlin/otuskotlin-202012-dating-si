@@ -1,8 +1,11 @@
-plugins {
-    kotlin("multiplatform") apply false
-    kotlin("jvm") apply false
-    kotlin("js") apply false
-}
-
 group = "ru.otus.otuskotlin.dating"
 version = "0.0.1"
+
+subprojects {
+    group = rootProject.group
+    version = rootProject.version
+
+    repositories {
+        mavenCentral()
+    }
+}
