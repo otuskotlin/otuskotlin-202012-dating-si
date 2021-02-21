@@ -10,4 +10,4 @@ pluginManagement {
     }
 }
 
-include("common", "common-be")
+include("dating-common", "dating-common-be")

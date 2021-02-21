@@ -9,5 +9,5 @@ dependencies {
     implementation(kotlin("test-annotations-common"))
     implementation(kotlin("test-junit"))
 
-    implementation(project(":common"))
+    implementation(project(":dating-common"))
 }
